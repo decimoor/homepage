@@ -1,0 +1,14 @@
+.sect-header{
+    text-align: center;
+    width: 100%;
+    font-weight: 1200;
+    font-size: 2rem;
+}
+
+#v-img{
+    width: 100%;
+}
+
+.image-desc{
+    opacity: 60%;
+}

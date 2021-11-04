@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100&display=swap');
+.content  li{
+    font-family: 'Noto Sans Display';
+    font-weight: 600;
+}
+
+#python-img{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+    background-image: none;
+}
+
+#cpp-img{
+    float: right;
+    width: 170px;
+    height: 200px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: white;
+    background-color: none;
+    
+}
+
+#sql-image{
+    width: 300px;
+    height: auto;
+    float: left;
+}
+
+.cpp-frame{
+    overflow: hidden;
+    box-sizing: border-box;
+}

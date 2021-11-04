@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .content{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    margin: 0px 0px;
+  }
+  .photo-grid{
+    padding-top: 2vh;
+    width: 513px;
+    margin: 0 4%;
+    height: 706px;
+    display: grid;
+    grid-template-columns: repeat(4, 118px);
+    grid-template-rows: repeat(4, 147px);
+    grid-column-gap: 13px;
+    grid-row-gap: 13px;
+  }
+  
+  #box-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url("../images/galleryimages/at\ desk.jpg");
+    background-size: 100%;
+
+  }
+  
+  #box-2{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    background-image: url("../images/galleryimages/childhood\ smilinh.jpg");
+    background-size: 100%;
+    background-position-y: -60px;
+  }
+  
+  #box-3{
+     grid-column-start: 3;
+    grid-row-start: 2;
+    background-image: url("../images/galleryimages/diry\ mirror.jpg");
+    background-size: 100%;
+  }
+  
+  #box-4{
+    grid-column-start: 4;
+    grid-row-start: 2;
+    background-image: url("../images/galleryimages/eli\ i\ lipy.jpg");
+    background-size: 100%;
+  }
+  
+  #box-5{
+      grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    background-image: url("../images/galleryimages/movin.jpg");
+    background-size: 100%;
+    background-position-y: -190px;
+  }
+  
+  #box-5>cover>desc{
+    margin-top: 0px;
+  }
+  
+  #box-6{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    background-image: url("../images/galleryimages/my\ wall.jpg");
+    background-size: 100%;
+  }
+  
+  #box-7{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    background-image: url("../images/galleryimages/photo_2021-10-22_23-00-29.jpg");
+    background-size: 100%;
+  }
+  
+  #box-8{
+    grid-column-start: 3;
+    grid-row-start: 4;
+    background-image: url("../images/galleryimages/preispolnilsya.jpg");
+    background-position-y: -32px;
+    background-size: 100%;
+  }
+  
+  #box-9{
+    grid-column-start: 4;
+    grid-row-start: 4;
+    background-image: url("../images/galleryimages/wet\ hair.jpg");
+    background-size: 100%;
+  }
+  
+  
+  .area{
+    
+    background-color: grey;
+    border-radius: 3px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    overflow: hidden;
+    transition: ease-in-out .3s;
+  }
+  
+  .type-1{
+    height: 100%;
+    width: 100%;
+  }
+
+  
+  
+  /* // .type-2{
+  //   height: calc(147px*2);
+  //   width: calc(118px*2)
+  // }
+  
+  // .type-3{
+  //   height: 147px;
+  //   width: 248px;
+  // } */
+  
+  /* body{
+    display: flex;
+    justify-content: center;
+  } */
+  
+  .cover{
+    border-radius: 0px 0px 12px 12px;
+    background-color: rgba(66, 66, 66, 0.5);
+    width: 100%;
+    height: 30%;
+    justify-content: flex-end;
+    overflow: hidden;
+    position: relative;
+    bottom: -30%;
+    transition: ease-in-out .3s;
+    filter: brightness(100%);
+  }
+  
+  .area:hover>.cover{
+    bottom: 0%;
+    transition: ease-in-out .4s;
+    filter: brightness(100%);
+  }
+  
+  .area:hover{
+    background-color: rgb(82, 81, 79);
+    filter: brightness(0.8);
+    transition: ease-in-out .4s;
+  }
+  
+  .desc{
+    position:relative;
+    font-size: 100%;
+    color: rgb(255, 255, 255);
+    margin-right: 8%;
+    margin-top: 15px;
+    text-align: right;
+  /*   background-color: white; */
+    padding-right: 4%;
+    overflow: visible;
+  }
